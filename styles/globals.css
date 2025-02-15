@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-image: url("/homeBG.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+}
+
+h5 {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", serif;
+  color: white;
+}
+
+.maxW {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* SLIDERS */
+.slider1 {
+  background-image: url('/slide1.jpg');
+  background-position: bottom;
+  background-size: cover;
+  height: 70vh;
+}
+
+.slider2 {
+  background-image: url('/slide2.jpg');
+  background-position: bottom;
+  background-size: cover;
+  height: 70vh;
+}
