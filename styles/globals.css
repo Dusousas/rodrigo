@@ -11,6 +11,11 @@ body {
   background-attachment: fixed;
 }
 
+.bgFooter{
+  background-image: url("/footer-img.jpg");
+  background-size: cover;
+}
+
 h1,
 h2,
 h3,
