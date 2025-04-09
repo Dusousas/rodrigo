@@ -32,10 +32,10 @@ export default function Footer() {
 
                 <article className='flex flex-col items-center lg:w-1/3'>
                     <h1 className='uppercase font-bold text-xl'>Contato</h1>
-                    <p className='text-Browp text-sm mt-4'>contato@cafejardim.com</p>
+                    <p className='text-Browp text-sm mt-4'>contato@cafe.com</p>
                     <p className='text-sm text-[#acacac]'>14 91234-1234</p>
                     <p className='text-sm text-[#acacac]'>Rua do café 123,</p>
-                    <p className='text-sm text-[#acacac]'>Brotas - Sp</p>
+                    <p className='text-sm text-[#acacac]'>Cidade - Sp</p>
                 </article>
 
                 <article className='flex flex-col items-center lg:w-1/3'>
